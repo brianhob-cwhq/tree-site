@@ -24,6 +24,7 @@
             <h3>Index</h3>
             <p><button id="oak">Oak</button></p>
             <p><button id="beech">Beech</button></p>
+            <p><button id="jacaranda">Jacaranda</button></p>
             <p><button id="maple">Maple</button></p>
 
 
@@ -52,12 +53,16 @@
             $("#i_summary").attr("src","oak_summary.html");
         })
         $("#beech").click(function(){
-
-
+            $("#i_content").attr("src","beech_content.html");
+            $("#i_summary").attr("src","beech_summary.html");
         })
 
         /* This will not be merged !  */
 
+        $("#jacaranda").click(function(){
+            $("#i_content").attr("src","jacaranda_content.html");
+            $("#i_summary").attr("src","jacaranda_summary.html");
+        })
 
     </script>
 </body>
